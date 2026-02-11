@@ -8,5 +8,6 @@ console.log("hello guys :wave:")
 function square(a: number): number{
     return a * a;
 }
+console.log("Too late now resolve the conflicts!!!")
 console.log('update from deric');
 console.log('update from rion hello');
