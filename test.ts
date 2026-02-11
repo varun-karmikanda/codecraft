@@ -24,6 +24,13 @@ console.log('update from varun')
 // varun 1 rebase 
 // varun 2 rebase
 
+
+/**
+ * 
+ * @param a 
+ * @returns 
+ */
+
 function cube(a:number):number{
     return a*a*a;
 }
