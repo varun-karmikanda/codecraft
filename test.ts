@@ -23,3 +23,7 @@ console.log('update from varun')
 // main comment 2// 
 // varun 1 rebase 
 // varun 2 rebase
+
+function cube(a:number):number{
+    return a*a*a;
+}
