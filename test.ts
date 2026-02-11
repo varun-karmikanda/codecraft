@@ -10,3 +10,4 @@ function square(a: number): number{
 }
 console.log('update from deric');
 console.log('update from rion hello');
+console.log("great conflicts");
