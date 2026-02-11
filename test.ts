@@ -7,3 +7,4 @@ function square(a: number): number{
     return a * a;
 }
 console.log('update from deric');
+console.log('update from rion hello');
