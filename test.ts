@@ -10,6 +10,9 @@ function square(a: number): number{
 }
 console.log("Too late now resolve the conflicts!!!")
 console.log('update from deric');
+function getName(name: string): string {
+    return name;
+}
 console.log('update from rion hello');
 console.log("great conflicts");
 console.log('update from varun')
