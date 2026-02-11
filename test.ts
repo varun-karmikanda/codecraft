@@ -13,6 +13,8 @@ console.log('update from deric');
 function getName(name: string): string {
     return name;
 }
+// Gotta create a conflict 
 console.log('update from rion hello');
 console.log("great conflicts");
+// Can it conflict
 console.log('update from varun')
