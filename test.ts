@@ -15,6 +15,7 @@ function getName(name: string): string {
 }
 // Gotta create a conflict 
 console.log('update from rion hello');
+// Rebase here 
 console.log("great conflicts");
 // Can it conflict
 console.log('update from varun')
