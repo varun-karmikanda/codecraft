@@ -1,3 +1,10 @@
+/**
+ * 
+ * @param arr 
+ * @returns 
+ */
+
+
 function isTruthyArray(arr:Array<any>):boolean {
     return arr.every(item => item)
 }
