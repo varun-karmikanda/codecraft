@@ -39,6 +39,6 @@ function test(a: number): string{
     return `Test number: ${a}`;
 }
 
-function cube(a: number): number{
-    return a * a * a;
+function cubez(a: number): number{
+    return a * a;
 }
