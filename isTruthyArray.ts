@@ -12,3 +12,4 @@ function isTruthyArray(arr:Array<any>):boolean {
 let arr:Array<any> = [1, 2, 3, 4, 6, ""]
 
 console.log(isTruthyArray(arr));
+console.log(arr ? "done": "no")
