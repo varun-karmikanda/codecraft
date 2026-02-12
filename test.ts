@@ -45,5 +45,5 @@ function test(a: number): string{
  * @returns a cubez result
  */
 function cubez(a: number): number{
-    return a * a;
+    return a ** 3;
 }
