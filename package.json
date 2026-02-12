@@ -1,0 +1,24 @@
+{
+  "name": "codecraft",
+  "version": "1.0.0",
+  "description": "",
+  "main": "arraySum.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/varun-karmikanda/codecraft.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/varun-karmikanda/codecraft/issues"
+  },
+  "homepage": "https://github.com/varun-karmikanda/codecraft#readme",
+  "dependencies": {
+    "lodash": "^4.17.23"
+  }
+}
