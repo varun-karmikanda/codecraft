@@ -1,4 +1,4 @@
-function isTitle(sentence:string):boolean {
+export function isTitle(sentence:string):boolean {
     let words:Array<string> = sentence.split(" ");
 
     for(const word of words) {
@@ -7,13 +7,6 @@ function isTitle(sentence:string):boolean {
     }
 
     return true;
-}
-
-let sentence = "Hello world";
-if(isTitle(sentence)) {
-    console.log(`"${sentence}" is in title case`);
-} else {
-    console.log(`"${sentence}" is not in title case`);
 }
 
 /**

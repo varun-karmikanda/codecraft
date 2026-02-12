@@ -1,4 +1,5 @@
-import {isTruthyArray} from './isTruthyArray';
+import {isTruthyArray} from './utils/isTruthyArray';
+import { isTitle } from './utils/isTitle';
 
 function arraySum(arr:Array<number>):number {
     let sum = 0;
