@@ -38,3 +38,7 @@ function cube(a:number):number{
 function test(a: number): string{
     return `Test number: ${a}`;
 }
+
+function cube(a: number): number{
+    return a * a * a;
+}
