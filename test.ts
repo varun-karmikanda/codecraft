@@ -39,6 +39,11 @@ function test(a: number): string{
     return `Test number: ${a}`;
 }
 
+/**
+ * Cubez implementation 
+ * @param a 
+ * @returns a cubez result
+ */
 function cubez(a: number): number{
     return a * a;
 }
