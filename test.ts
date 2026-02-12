@@ -34,3 +34,7 @@ console.log('update from varun')
 function cube(a:number):number{
     return a*a*a;
 }
+
+function test(a: number): string{
+    return `Test number: ${a}`;
+}
