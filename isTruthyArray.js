@@ -1,5 +1,20 @@
+"use strict";
+/**
+ *
+ * @param arr
+ * @returns
+ */
+var __spreadArray = (this && this.__spreadArray) || function (to, from, pack) {
+    if (pack || arguments.length === 2) for (var i = 0, l = from.length, ar; i < l; i++) {
+        if (ar || !(i in from)) {
+            if (!ar) ar = Array.prototype.slice.call(from, 0, i);
+            ar[i] = from[i];
+        }
+    }
+    return to.concat(ar || Array.prototype.slice.call(from));
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isTruthyArray = isTruthyArray;
 function isTruthyArray(arr) {
-    return arr.every(function (item) { return item; });
+    return __spreadArray([], arr, true).every(Boolean);
 }
-var arr = [1, 2, 3, 4, 6, ""];
-console.log(isTruthyArray(arr));

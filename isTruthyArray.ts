@@ -5,11 +5,6 @@
  */
 
 
-function isTruthyArray(arr:Array<any>):boolean {
-    return arr.every(item => item)
+export function isTruthyArray(arr:Array<any>):boolean {
+    return [...arr].every(Boolean)
 }
-
-let arr:Array<any> = [1, 2, 3, 4, 6, ""]
-
-console.log(isTruthyArray(arr));
-console.log(arr ? "done": "no")
